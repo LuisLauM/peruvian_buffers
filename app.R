@@ -10,7 +10,7 @@ library(viridisLite)
 
 allBuffers <- readRDS("allBuffers.rds")
 
-distancias_disponibles <- 1:200
+distancias_disponibles <- 1:300
 
 names(allBuffers) <- as.character(distancias_disponibles)
 
